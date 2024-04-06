@@ -1,0 +1,18 @@
+.foot-bar {
+    height: 10px;
+    padding: 3px 3px;
+    background-color: #333;
+    border-top: 1px solid var(--color-2);
+    bottom: 0;
+    left: 0;
+    position: fixed;    
+    right: 0;
+    z-index: 1000;  
+    width: 100%;  
+    box-shadow: 0px 0px 1px 0px #c6c6c6;    
+    display: table;
+    color: #fff;
+    text-align: center;
+    
+}
+

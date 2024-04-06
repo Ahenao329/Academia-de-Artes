@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/login">{{ title }}🎨</a>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" style="direction: rtl;">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            CERRAR SESION
+          </a>
+
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            DOCENTES
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="cursos/horarios">Mis cursos y horarios</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            ESTUDIANTES
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="cursos/matriculados">Mis cursos</a></li>
+            <li><a class="dropdown-item" href="horarios">Horarios</a></li>
+            <li><a class="dropdown-item" href="certificados">Certificados</a></li>
+            <li><a class="dropdown-item" href="pagos">Admin pagos</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            ADMINISTRACIÓN
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="admin/docente">Admin docente </a></li>
+            <li><a class="dropdown-item" href="cursos">Admin curso</a></li>
+            <li><a class="dropdown-item" href="admin/informes">Admin informes</a></li>
+            <li><a class="dropdown-item" href="asignar/cursos">Asignar curso</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

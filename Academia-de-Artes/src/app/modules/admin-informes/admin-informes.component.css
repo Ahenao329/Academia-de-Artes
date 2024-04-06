@@ -1,0 +1,7 @@
+#grupo-botones{
+    display: flex;
+    justify-content: space-around;
+}
+#titulo{
+    font-size: 35px;
+}
